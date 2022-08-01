@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: "meltano/meltano"
-  tag: "latest"
+  repository: "us.gcr.io/never-alone-staging/meltano-demo-project"
+  tag: "dev"
 
 meltano:
   database_uri: "sqlite:///$MELTANO_PROJECT_ROOT/.meltano/meltano.db"
